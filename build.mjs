@@ -77,11 +77,15 @@ async function main() {
   // 5. Filter, sort, shape
   const coins = [...byMint.values()]
     .filter((c) => modes[c.mint] === "rewards")
+    // Only emit coins the site's strict validator accepts (one bad coin would reject the whole file)
+    .filter((c) => typeof c.name === "string" && typeof c.ticker === "string"
+      && (c.status === "curve" || c.status === "graduated") && Number.isFinite(Date.parse(c.createdAt))
+      && /^\d+$/.test(String(c.marketCap ?? "0")) && /^\d+$/.test(String(c.volume24h ?? "0")))
     .map((c) => {
       const mcSol = toSol(c.marketCap);
       return {
-        mint: c.mint, name: c.name, ticker: c.ticker, imageUri: c.imageUri ?? null,
-        status: c.status, createdAt: c.createdAt, trustGrade: c.trustGrade ?? null,
+        mint: c.mint, name: c.name, ticker: c.ticker, imageUri: typeof c.imageUri === "string" && c.imageUri ? c.imageUri : null,
+        status: c.status, createdAt: c.createdAt, trustGrade: typeof c.trustGrade === "string" ? c.trustGrade : null,
         marketCapSol: round(mcSol, 4), marketCapUsd: round(mcSol * solUsd, 2),
         volume24hUsd: round(toSol(c.volume24h) * solUsd, 2),
         url: `https://higher.fun/coin/${c.mint}`, isNsm: c.mint === NSM,
