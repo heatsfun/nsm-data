@@ -5,6 +5,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const API = "https://api.higher.fun";
 const NSM = "FA7ScL6CPYFU5PQeGJrNbYZePCnuEU6tf5T1rezATPLt";
 const MAX_COINS = 36;
+const NEWEST_SLOTS = 12; // newest New School coins always on the board, whatever their grade
 const DELAY_MS = 350; // ~170 req/min max, well under the 300/min limit
 const STALE_MS = 30 * 60 * 1000; // rewrite even if unchanged after 30 min
 const GRADES = { A: 0, B: 1, C: 2, D: 3, F: 4 };
@@ -44,11 +45,17 @@ async function main() {
   const prev = await readJson("coins.json", null);
 
   // 1. Lists (any failure aborts without touching coins.json)
+  // sort=new first: its mints get their feeMode looked up first, so fresh launches land in this run
   const byMint = new Map();
+  const newMints = [];
   for (const sort of ["new", "trending", "mcap"]) {
     const r = await getJson(`/coins?sort=${sort}&limit=100`);
     if (!Array.isArray(r?.items)) throw new Error(`bad list for ${sort}`);
-    for (const c of r.items) if (c?.mint && !byMint.has(c.mint)) byMint.set(c.mint, c);
+    for (const c of r.items) {
+      if (!c?.mint) continue;
+      if (sort === "new") newMints.push(c.mint);
+      if (!byMint.has(c.mint)) byMint.set(c.mint, c);
+    }
   }
   if (byMint.size === 0) throw new Error("empty lists");
 
@@ -96,10 +103,12 @@ async function main() {
       const g = (GRADES[a.trustGrade] ?? 5) - (GRADES[b.trustGrade] ?? 5);
       return g !== 0 ? g : a._mc === b._mc ? 0 : a._mc > b._mc ? -1 : 1;
     });
-  let top = coins.slice(0, MAX_COINS);
-  const nsm = coins.find((c) => c.isNsm);
-  if (nsm && !top.includes(nsm)) top = [...top.slice(0, MAX_COINS - 1), nsm];
-  top = top.map(({ _mc, ...c }) => c);
+  // Reserve slots: NSM + the newest New School coins, then fill by grade. Final order stays grade-sorted.
+  const newest = coins.filter((c) => newMints.includes(c.mint))
+    .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt)).slice(0, NEWEST_SLOTS);
+  const keep = new Set([...coins.filter((c) => c.isNsm), ...newest]);
+  for (const c of coins) { if (keep.size >= MAX_COINS) break; keep.add(c); }
+  let top = coins.filter((c) => keep.has(c)).map(({ _mc, ...c }) => c);
   if (top.length === 0) throw new Error("no New School coins found; keeping last coins.json");
 
   // Persist modes (sorted keys for stable diffs)
