@@ -4,8 +4,8 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const API = "https://api.higher.fun";
 const NSM = "FA7ScL6CPYFU5PQeGJrNbYZePCnuEU6tf5T1rezATPLt";
-const MAX_COINS = 36;
-const NEWEST_SLOTS = 12; // newest New School coins always on the board, whatever their grade
+const NON_A_COINS = 40; // top non-A coins by market cap (site shows fewer, sized to fit the board)
+const MAX_PAGES = 30; // sort=new pagination safety cap (100 coins per page)
 const DELAY_MS = 350; // ~170 req/min max, well under the 300/min limit
 const STALE_MS = 30 * 60 * 1000; // rewrite even if unchanged after 30 min
 const GRADES = { A: 0, B: 1, C: 2, D: 3, F: 4 };
@@ -45,17 +45,25 @@ async function main() {
   const prev = await readJson("coins.json", null);
 
   // 1. Lists (any failure aborts without touching coins.json)
-  // sort=new first: its mints get their feeMode looked up first, so fresh launches land in this run
+  // Paginate sort=new to the end: covers every coin on higher.fun (a few pages today)
   const byMint = new Map();
-  const newMints = [];
-  for (const sort of ["new", "trending", "mcap"]) {
-    const r = await getJson(`/coins?sort=${sort}&limit=100`);
-    if (!Array.isArray(r?.items)) throw new Error(`bad list for ${sort}`);
-    for (const c of r.items) {
-      if (!c?.mint) continue;
-      if (sort === "new") newMints.push(c.mint);
-      if (!byMint.has(c.mint)) byMint.set(c.mint, c);
-    }
+  let cursor = null, pages = 0;
+  do {
+    const r = await getJson(`/coins?sort=new&limit=100${cursor ? `&cursor=${encodeURIComponent(cursor)}` : ""}`);
+    if (!Array.isArray(r?.items)) throw new Error("bad list page");
+    for (const c of r.items) if (c?.mint && !byMint.has(c.mint)) byMint.set(c.mint, c);
+    cursor = r.items.length ? r.nextCursor : null;
+    pages++;
+  } while (cursor && pages < MAX_PAGES);
+  // Grades change over time: never cache trustGrade. Any coin that was an A grader in the last
+  // snapshot but is missing from this run's list pages gets its CURRENT detail fetched, so it can
+  // drop out of (or stay in) the A section based on today's grade.
+  const prevA = ((await readJson("board.json", null))?.coins ?? prev?.coins ?? []).filter((c) => c.trustGrade === "A").map((c) => c.mint);
+  let refreshed = 0;
+  for (const mint of prevA) {
+    if (byMint.has(mint)) continue;
+    try { const d = await getJson(`/coins/${mint}`, 2); if (d?.mint) { byMint.set(mint, d); refreshed++; if (d.feeMode) modes[mint] = d.feeMode; } }
+    catch { /* keep going; it simply isn't emitted this run */ }
   }
   if (byMint.size === 0) throw new Error("empty lists");
 
@@ -103,25 +111,36 @@ async function main() {
       const g = (GRADES[a.trustGrade] ?? 5) - (GRADES[b.trustGrade] ?? 5);
       return g !== 0 ? g : a._mc === b._mc ? 0 : a._mc > b._mc ? -1 : 1;
     });
-  // Reserve slots: NSM + the newest New School coins, then fill by grade. Final order stays grade-sorted.
-  const newest = coins.filter((c) => newMints.includes(c.mint))
-    .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt)).slice(0, NEWEST_SLOTS);
-  const keep = new Set([...coins.filter((c) => c.isNsm), ...newest]);
-  for (const c of coins) { if (keep.size >= MAX_COINS) break; keep.add(c); }
-  let top = coins.filter((c) => keep.has(c)).map(({ _mc, ...c }) => c);
+  // Selection: every A grader (newest first), then the top non-A coins by market cap. NSM always included.
+  const strip = ({ _mc, ...c }) => c;
+  const byMc = (a, b) => (a._mc === b._mc ? 0 : a._mc > b._mc ? -1 : 1);
+  const aGraders = coins.filter((c) => c.trustGrade === "A")
+    .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt));
+  const rest = coins.filter((c) => c.trustGrade !== "A").sort(byMc);
+  const restTop = rest.slice(0, NON_A_COINS);
+  const nsm = rest.find((c) => c.isNsm);
+  if (nsm && !restTop.includes(nsm)) restTop.push(nsm);
+  const top = [...aGraders, ...restTop].map(strip);
   if (top.length === 0) throw new Error("no New School coins found; keeping last coins.json");
 
   // Persist modes (sorted keys for stable diffs)
   const sortedModes = Object.fromEntries(Object.entries(modes).sort(([a], [b]) => a.localeCompare(b)));
   await writeFile("modes.json", JSON.stringify(sortedModes, null, 1) + "\n");
 
-  const changed = !prev || JSON.stringify(prev.coins) !== JSON.stringify(top);
-  const stale = !prev || Date.now() - Date.parse(prev.updatedAt) > STALE_MS;
-  if (changed || stale) {
-    const out = { updatedAt: new Date().toISOString(), solUsd, coins: top };
-    await writeFile("coins.json", JSON.stringify(out, null, 1) + "\n");
+  // board.json: the full board (all A graders newest first, then top non-A by market cap).
+  // coins.json: same order capped at 36 coins, kept for sites still validating "<= 36 coins".
+  const now = new Date().toISOString();
+  const legacy = top.slice(0, 36);
+  const nsmOut = top.find((c) => c.isNsm);
+  if (nsmOut && !legacy.some((c) => c.isNsm)) legacy[legacy.length - 1] = nsmOut;
+  const prevBoard = await readJson("board.json", null);
+  let written = [];
+  for (const [file, list, old] of [["board.json", top, prevBoard], ["coins.json", legacy, prev]]) {
+    const changed = !old || JSON.stringify(old.coins) !== JSON.stringify(list);
+    const stale = !old || Date.now() - Date.parse(old.updatedAt) > STALE_MS;
+    if (changed || stale) { await writeFile(file, JSON.stringify({ updatedAt: now, solUsd, coins: list }, null, 1) + "\n"); written.push(file); }
   }
-  console.log(`listed=${byMint.size} lookedUp=${looked} failed=${failed} newSchool=${coins.length} written=${changed || stale} (changed=${changed}, stale=${stale})`);
+  console.log(`pages=${pages} prevARefreshed=${refreshed} listed=${byMint.size} aGraders=${aGraders.length} emitted=${top.length} lookedUp=${looked} failed=${failed} newSchool=${coins.length} written=${written.join(',') || 'none'}`);
 }
 
 main().catch((e) => { console.error("build failed:", e.message); process.exit(1); });

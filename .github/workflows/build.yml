@@ -35,7 +35,7 @@ jobs:
             echo "::group::iteration $i $(date -u +%FT%TZ)"
             git pull -q --rebase origin main || { git rebase --abort 2>/dev/null; git reset -q --hard origin/main; }
             if node build.mjs; then
-              git add coins.json modes.json
+              git add coins.json board.json modes.json
               if git diff --cached --quiet; then
                 echo "no changes"
               else
@@ -47,7 +47,7 @@ jobs:
               fi
             else
               echo "::warning::build failed in iteration $i; keeping last good coins.json"
-              git checkout -- coins.json modes.json 2>/dev/null || true
+              git checkout -- coins.json board.json modes.json 2>/dev/null || true
             fi
             echo "::endgroup::"
             now=$(date +%s)
