@@ -4,7 +4,7 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const API = "https://api.higher.fun";
 const NSM = "FA7ScL6CPYFU5PQeGJrNbYZePCnuEU6tf5T1rezATPLt";
-const NON_A_COINS = 40; // top non-A coins by market cap (site shows fewer, sized to fit the board)
+const NON_A_COINS = 100; // top non-A by market cap; site fills remaining board rows by size
 const MAX_PAGES = 30; // sort=new pagination safety cap (100 coins per page)
 const DELAY_MS = 350; // ~170 req/min max, well under the 300/min limit
 const STALE_MS = 30 * 60 * 1000; // rewrite even if unchanged after 30 min
