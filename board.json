@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T17:10:02.964Z",
+ "updatedAt": "2026-11-06T17:15:02.615Z",
  "solUsd": 90.435,
  "coins": [
   {
@@ -250,7 +250,7 @@
    "trustGrade": "A",
    "marketCapSol": 24.5031,
    "marketCapUsd": 2215.94,
-   "volume24hUsd": 0.6,
+   "volume24hUsd": 0,
    "url": "https://higher.fun/coin/FzETuqfJ9Q9Gwi7N515poT6feNqR2yaDmmHkV1EZnauk",
    "isNsm": false
   },
@@ -360,9 +360,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:08:56.000Z",
    "trustGrade": "A",
-   "marketCapSol": 17379.8133,
-   "marketCapUsd": 1571743.41,
-   "volume24hUsd": 964392.98,
+   "marketCapSol": 15414.1205,
+   "marketCapUsd": 1393975.99,
+   "volume24hUsd": 975802.57,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
@@ -374,9 +374,9 @@
    "status": "graduated",
    "createdAt": "2026-11-06T02:27:57.000Z",
    "trustGrade": "B",
-   "marketCapSol": 278.2796,
-   "marketCapUsd": 25166.22,
-   "volume24hUsd": 124936.41,
+   "marketCapSol": 283.7073,
+   "marketCapUsd": 25657.07,
+   "volume24hUsd": 125065.39,
    "url": "https://higher.fun/coin/ALBA7iVjFkQzxPQQCovkK7zQiaXUPmixt2dZxNstXiPp",
    "isNsm": false
   },
@@ -388,9 +388,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:18:43.000Z",
    "trustGrade": "B",
-   "marketCapSol": 119.4409,
-   "marketCapUsd": 10801.64,
-   "volume24hUsd": 33473.79,
+   "marketCapSol": 123.8651,
+   "marketCapUsd": 11201.74,
+   "volume24hUsd": 33233.66,
    "url": "https://higher.fun/coin/6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
    "isNsm": false
   },
@@ -402,9 +402,9 @@
    "status": "curve",
    "createdAt": "2026-11-05T22:41:08.000Z",
    "trustGrade": "B",
-   "marketCapSol": 97.6555,
-   "marketCapUsd": 8831.47,
-   "volume24hUsd": 61752.38,
+   "marketCapSol": 95.3956,
+   "marketCapUsd": 8627.1,
+   "volume24hUsd": 61810.81,
    "url": "https://higher.fun/coin/ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
    "isNsm": false
   },
@@ -416,9 +416,9 @@
    "status": "curve",
    "createdAt": "2026-11-03T17:24:23.000Z",
    "trustGrade": "C",
-   "marketCapSol": 86.6277,
-   "marketCapUsd": 7834.18,
-   "volume24hUsd": 10229.88,
+   "marketCapSol": 83.6321,
+   "marketCapUsd": 7563.27,
+   "volume24hUsd": 10065.56,
    "url": "https://higher.fun/coin/2pdaLHt8451o3abCE8SCFgzJxn6LyT9W6gQodSi9fHnF",
    "isNsm": false
   },
@@ -430,9 +430,9 @@
    "status": "graduated",
    "createdAt": "2026-11-04T07:26:02.000Z",
    "trustGrade": "B",
-   "marketCapSol": 80.1665,
-   "marketCapUsd": 7249.86,
-   "volume24hUsd": 15284.03,
+   "marketCapSol": 76.2077,
+   "marketCapUsd": 6891.84,
+   "volume24hUsd": 15352.86,
    "url": "https://higher.fun/coin/BU4FASzMf64REXHY526x11RnusvubZWa16GJBYghhigh",
    "isNsm": false
   },
@@ -472,9 +472,9 @@
    "status": "graduated",
    "createdAt": "2026-11-04T21:18:04.000Z",
    "trustGrade": "C",
-   "marketCapSol": 39.5483,
-   "marketCapUsd": 3576.55,
-   "volume24hUsd": 4433.65,
+   "marketCapSol": 37.3737,
+   "marketCapUsd": 3379.89,
+   "volume24hUsd": 4503.08,
    "url": "https://higher.fun/coin/6X6E4frRadiUEcVqUKTyUVS2FhGmwN359TocEaHXtBX5",
    "isNsm": false
   },
@@ -488,8 +488,22 @@
    "trustGrade": "C",
    "marketCapSol": 37.2403,
    "marketCapUsd": 3367.83,
-   "volume24hUsd": 690.29,
+   "volume24hUsd": 632.1,
    "url": "https://higher.fun/coin/Gr3wN678giG2hiJnW9b4z2adzJQbyGZMD1p4rNfvoYkm",
+   "isNsm": false
+  },
+  {
+   "mint": "7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
+   "name": "Higher Inu",
+   "ticker": "HINU",
+   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreif7chg4zbig6dbji6drrzgmm47zpr6ljyj2brh6q5ohbfn6y7zc7q",
+   "status": "graduated",
+   "createdAt": "2026-11-03T17:25:28.000Z",
+   "trustGrade": "B",
+   "marketCapSol": 35.9484,
+   "marketCapUsd": 3250.99,
+   "volume24hUsd": 13586.75,
+   "url": "https://higher.fun/coin/7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
    "isNsm": false
   },
   {
@@ -500,9 +514,9 @@
    "status": "graduated",
    "createdAt": "2026-11-04T21:25:45.000Z",
    "trustGrade": "C",
-   "marketCapSol": 36.7279,
-   "marketCapUsd": 3321.49,
-   "volume24hUsd": 3344.33,
+   "marketCapSol": 34.9409,
+   "marketCapUsd": 3159.88,
+   "volume24hUsd": 3402.6,
    "url": "https://higher.fun/coin/4NK1dfCNtMwh5BK4yycH5EjXXQXtjARvsD7VX47LDdB2",
    "isNsm": false
   },
@@ -516,7 +530,7 @@
    "trustGrade": "C",
    "marketCapSol": 34.8085,
    "marketCapUsd": 3147.9,
-   "volume24hUsd": 534.59,
+   "volume24hUsd": 476.39,
    "url": "https://higher.fun/coin/BTyRbNsTc9MMdPfpFM6bdtiJL3EY3M1iATceKcqmuxc1",
    "isNsm": false
   },
@@ -530,22 +544,8 @@
    "trustGrade": "B",
    "marketCapSol": 33.7594,
    "marketCapUsd": 3053.03,
-   "volume24hUsd": 232.93,
+   "volume24hUsd": 177.89,
    "url": "https://higher.fun/coin/J1GkBUb4NSgAZZ8uHhQgTesdx9cqZpkL3x4q7mDL8iiw",
-   "isNsm": false
-  },
-  {
-   "mint": "7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
-   "name": "Higher Inu",
-   "ticker": "HINU",
-   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreif7chg4zbig6dbji6drrzgmm47zpr6ljyj2brh6q5ohbfn6y7zc7q",
-   "status": "graduated",
-   "createdAt": "2026-11-03T17:25:28.000Z",
-   "trustGrade": "B",
-   "marketCapSol": 33.5165,
-   "marketCapUsd": 3031.06,
-   "volume24hUsd": 13599.05,
-   "url": "https://higher.fun/coin/7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
    "isNsm": false
   },
   {
@@ -558,7 +558,7 @@
    "trustGrade": "B",
    "marketCapSol": 33.3702,
    "marketCapUsd": 3017.84,
-   "volume24hUsd": 1359.14,
+   "volume24hUsd": 1314.64,
    "url": "https://higher.fun/coin/6UCnrRHHHVcnwuJ671v9hpHzfWjy2z4B3NhhruXdhigh",
    "isNsm": false
   },
@@ -642,7 +642,7 @@
    "trustGrade": "C",
    "marketCapSol": 31.1969,
    "marketCapUsd": 2821.29,
-   "volume24hUsd": 1088.74,
+   "volume24hUsd": 1033.68,
    "url": "https://higher.fun/coin/FewHc3eSAWeYSNkBX5Gs9W1Js3dhqEgDk11o138wtNu",
    "isNsm": false
   },
@@ -714,6 +714,20 @@
    "marketCapUsd": 2664.08,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/6cGdXT82Q6V2JowUSefChHfomNFiRQYZUFLw3ESawAKE",
+   "isNsm": false
+  },
+  {
+   "mint": "6d9csoDhYFx958FFARm5EGrSTmTBuCAVX7GWf4GYXRQe",
+   "name": "I KNOW WHAT I HOLD",
+   "ticker": "Iknow",
+   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreie7btj76jktd3nszettqj3bzs6pad5oyiyud63w3tjjcksje2dvga",
+   "status": "curve",
+   "createdAt": "2026-11-06T17:10:26.000Z",
+   "trustGrade": "B",
+   "marketCapSol": 29.4548,
+   "marketCapUsd": 2663.75,
+   "volume24hUsd": 287.23,
+   "url": "https://higher.fun/coin/6d9csoDhYFx958FFARm5EGrSTmTBuCAVX7GWf4GYXRQe",
    "isNsm": false
   },
   {
@@ -1750,20 +1764,6 @@
    "marketCapUsd": 2528.48,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/iWkFbkQHox63vYStqZB2aYtoUKtyKJMEgb6NnkWtzPm",
-   "isNsm": false
-  },
-  {
-   "mint": "8A2LRTM7wBS8wNFrZKdyYXHiUkiCMFTERjHt1MJszS5S",
-   "name": "dancing dog",
-   "ticker": "doggo",
-   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreiftodz5kfsrxm7uudqvay6ymtorlgxonn5yuaxpoy4pwktd5qccf4",
-   "status": "curve",
-   "createdAt": "2026-11-05T00:20:54.000Z",
-   "trustGrade": "C",
-   "marketCapSol": 27.9591,
-   "marketCapUsd": 2528.48,
-   "volume24hUsd": 0,
-   "url": "https://higher.fun/coin/8A2LRTM7wBS8wNFrZKdyYXHiUkiCMFTERjHt1MJszS5S",
    "isNsm": false
   }
  ]
