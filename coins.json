@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-06T19:10:02.141Z",
- "solUsd": 90.165,
+ "updatedAt": "2026-11-06T19:15:02.101Z",
+ "solUsd": 90.13,
  "coins": [
   {
    "mint": "7oVoi9z3BjqDbNt2mZ5zdbappeFqzqSVKRp9HMhFtk7w",
@@ -11,8 +11,8 @@
    "createdAt": "2026-11-06T04:39:53.000Z",
    "trustGrade": "A",
    "marketCapSol": 22.4685,
-   "marketCapUsd": 2025.87,
-   "volume24hUsd": 910.19,
+   "marketCapUsd": 2025.08,
+   "volume24hUsd": 909.84,
    "url": "https://higher.fun/coin/7oVoi9z3BjqDbNt2mZ5zdbappeFqzqSVKRp9HMhFtk7w",
    "isNsm": false
   },
@@ -39,8 +39,8 @@
    "createdAt": "2026-11-05T21:28:47.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.2024,
-   "marketCapUsd": 1911.72,
-   "volume24hUsd": 102.84,
+   "marketCapUsd": 1910.98,
+   "volume24hUsd": 102.8,
    "url": "https://higher.fun/coin/9RCBKu7ShgQfYk9wgJS3SZadGRSU2JfjTQhK9Y9gUFba",
    "isNsm": false
   },
@@ -53,8 +53,8 @@
    "createdAt": "2026-11-05T21:13:01.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.2024,
-   "marketCapUsd": 1911.72,
-   "volume24hUsd": 180.51,
+   "marketCapUsd": 1910.98,
+   "volume24hUsd": 180.44,
    "url": "https://higher.fun/coin/FTufi2WYXtnxUhHqoSpt2iiRPUx7MQ3LUZT3xQZcXRqw",
    "isNsm": false
   },
@@ -67,8 +67,8 @@
    "createdAt": "2026-11-05T20:52:57.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.211,
-   "marketCapUsd": 1912.49,
-   "volume24hUsd": 807.15,
+   "marketCapUsd": 1911.75,
+   "volume24hUsd": 806.84,
    "url": "https://higher.fun/coin/DLuJHVbpQ5ujteQtfjx87Mu2xkwi7NAGGMXr9g59dJb6",
    "isNsm": false
   },
@@ -81,8 +81,8 @@
    "createdAt": "2026-11-05T20:28:24.000Z",
    "trustGrade": "A",
    "marketCapSol": 23.9051,
-   "marketCapUsd": 2155.4,
-   "volume24hUsd": 43.69,
+   "marketCapUsd": 2154.57,
+   "volume24hUsd": 43.68,
    "url": "https://higher.fun/coin/74JPcgYcVc82JNFta66Ri4joPJ7Aw33rZzbUWPnEhc8N",
    "isNsm": false
   },
@@ -95,7 +95,7 @@
    "createdAt": "2026-11-05T17:40:59.000Z",
    "trustGrade": "A",
    "marketCapSol": 25.2584,
-   "marketCapUsd": 2277.42,
+   "marketCapUsd": 2276.54,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/26V67xoD1jJ3NjrrepLYf6T7vSZgZdVNDveCFkZNVqAV",
    "isNsm": false
@@ -109,8 +109,8 @@
    "createdAt": "2026-11-05T16:31:38.000Z",
    "trustGrade": "A",
    "marketCapSol": 25.2565,
-   "marketCapUsd": 2277.25,
-   "volume24hUsd": 69.83,
+   "marketCapUsd": 2276.36,
+   "volume24hUsd": 69.81,
    "url": "https://higher.fun/coin/Q4UtYiYbLgNMkniEBfhrxySwTMDduVsG43ZuopsBvr4",
    "isNsm": false
   },
@@ -123,7 +123,7 @@
    "createdAt": "2026-11-05T14:08:13.000Z",
    "trustGrade": "A",
    "marketCapSol": 26.6078,
-   "marketCapUsd": 2399.09,
+   "marketCapUsd": 2398.16,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/FVgRn5zBLun9ZQSBbcMWvbARbxKVeQUbbDmfT4EbNm3q",
    "isNsm": false
@@ -137,7 +137,7 @@
    "createdAt": "2026-11-05T13:25:25.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.2024,
-   "marketCapUsd": 1911.72,
+   "marketCapUsd": 1910.98,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/8HcrhUpQgq7Cc9WRdJYxzFQUFEp1XTfakUMqgyJa9KTo",
    "isNsm": false
@@ -151,7 +151,7 @@
    "createdAt": "2026-11-05T12:43:07.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.2024,
-   "marketCapUsd": 1911.72,
+   "marketCapUsd": 1910.98,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/G41h4FB4nuHQtuKpYBA2Pxg1DsgMNp7c3dBTzAw8NHqd",
    "isNsm": false
@@ -165,7 +165,7 @@
    "createdAt": "2026-11-05T12:30:54.000Z",
    "trustGrade": "A",
    "marketCapSol": 22.5538,
-   "marketCapUsd": 2033.56,
+   "marketCapUsd": 2032.77,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/6rCwoabezYtzdKHMy1nXkizLdgMt47uA3o1NRV6HjPa",
    "isNsm": false
@@ -179,7 +179,7 @@
    "createdAt": "2026-11-05T01:16:58.000Z",
    "trustGrade": "A",
    "marketCapSol": 22.613,
-   "marketCapUsd": 2038.9,
+   "marketCapUsd": 2038.11,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/FdtVZPd4upneCX61kKkpC5Q5bwVSFsGuVrh2zPiv66RP",
    "isNsm": false
@@ -193,7 +193,7 @@
    "createdAt": "2026-11-05T00:37:03.000Z",
    "trustGrade": "A",
    "marketCapSol": 22.8348,
-   "marketCapUsd": 2058.9,
+   "marketCapUsd": 2058.1,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/7gVaGopQgFghLCSGGMjS6DcTcfEwAyCmQ1k5AhMUiK1b",
    "isNsm": false
@@ -207,7 +207,7 @@
    "createdAt": "2026-11-05T00:27:13.000Z",
    "trustGrade": "A",
    "marketCapSol": 29.8939,
-   "marketCapUsd": 2695.38,
+   "marketCapUsd": 2694.33,
    "volume24hUsd": 11.25,
    "url": "https://higher.fun/coin/DghREKFtjeWpQeQDB2DxNbZYMqme72xtG8t2aCSzUSZE",
    "isNsm": false
@@ -221,8 +221,8 @@
    "createdAt": "2026-11-05T00:09:06.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.2024,
-   "marketCapUsd": 1911.72,
-   "volume24hUsd": 51.62,
+   "marketCapUsd": 1910.98,
+   "volume24hUsd": 51.6,
    "url": "https://higher.fun/coin/FA7ScL6CPYFU5PQeGJrNbYZePCnuEU6tf5T1rezATPLt",
    "isNsm": true
   },
@@ -235,7 +235,7 @@
    "createdAt": "2026-11-04T23:49:57.000Z",
    "trustGrade": "A",
    "marketCapSol": 24.5031,
-   "marketCapUsd": 2209.32,
+   "marketCapUsd": 2208.47,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/FzETuqfJ9Q9Gwi7N515poT6feNqR2yaDmmHkV1EZnauk",
    "isNsm": false
@@ -249,7 +249,7 @@
    "createdAt": "2026-11-04T23:37:53.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.2623,
-   "marketCapUsd": 1917.11,
+   "marketCapUsd": 1916.37,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/DtD8J3aihZXvWqocyEFochaTriWWQBkz9Pa9gGMFtdEK",
    "isNsm": false
@@ -263,7 +263,7 @@
    "createdAt": "2026-11-04T22:23:09.000Z",
    "trustGrade": "A",
    "marketCapSol": 25.2891,
-   "marketCapUsd": 2280.2,
+   "marketCapUsd": 2279.31,
    "volume24hUsd": 4.52,
    "url": "https://higher.fun/coin/CeXrwBk696JpJu7KG5Pnr4FVasMg8DPiRniCf7YGod5A",
    "isNsm": false
@@ -277,8 +277,8 @@
    "createdAt": "2026-11-04T22:13:12.000Z",
    "trustGrade": "A",
    "marketCapSol": 22.0327,
-   "marketCapUsd": 1986.58,
-   "volume24hUsd": 2620.22,
+   "marketCapUsd": 1985.81,
+   "volume24hUsd": 2619.21,
    "url": "https://higher.fun/coin/9cnrzB1jC5QqR7bJRwAXfPBHypvS2NbwX4umy5wSr4Uk",
    "isNsm": false
   },
@@ -291,8 +291,8 @@
    "createdAt": "2026-11-04T21:51:49.000Z",
    "trustGrade": "A",
    "marketCapSol": 21.2425,
-   "marketCapUsd": 1915.33,
-   "volume24hUsd": 19.53,
+   "marketCapUsd": 1914.58,
+   "volume24hUsd": 19.52,
    "url": "https://higher.fun/coin/DSWBA9GQXYQNB4VjYEqEDtUbxHQn7TEq4c2WEHxMcokE",
    "isNsm": false
   },
@@ -305,7 +305,7 @@
    "createdAt": "2026-11-04T10:02:19.000Z",
    "trustGrade": "A",
    "marketCapSol": 10.6012,
-   "marketCapUsd": 955.86,
+   "marketCapUsd": 955.49,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/6YGsLEJLGN2SGz39QkacHsStz6Apgx75Ke6RD2Bvhigh",
    "isNsm": false
@@ -319,7 +319,7 @@
    "createdAt": "2026-11-04T03:50:33.000Z",
    "trustGrade": "A",
    "marketCapSol": 13.3039,
-   "marketCapUsd": 1199.55,
+   "marketCapUsd": 1199.08,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/88gdKhQgnYxvHxPgr2ALQkcTnutVj4bKJLfKpnBKhigh",
    "isNsm": false
@@ -333,7 +333,7 @@
    "createdAt": "2026-11-03T18:32:12.000Z",
    "trustGrade": "A",
    "marketCapSol": 12.5472,
-   "marketCapUsd": 1131.32,
+   "marketCapUsd": 1130.88,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/G1PgnyNQ7YNvWt1Zrth3Jj5sGNZMkFn2vBqJSJruhigh",
    "isNsm": false
@@ -346,9 +346,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:08:56.000Z",
    "trustGrade": "A",
-   "marketCapSol": 10915.2052,
-   "marketCapUsd": 984169.48,
-   "volume24hUsd": 1027688.05,
+   "marketCapSol": 11745.9733,
+   "marketCapUsd": 1058664.57,
+   "volume24hUsd": 1023470.6,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
@@ -360,9 +360,9 @@
    "status": "graduated",
    "createdAt": "2026-11-06T02:27:57.000Z",
    "trustGrade": "B",
-   "marketCapSol": 159.5015,
-   "marketCapUsd": 14381.45,
-   "volume24hUsd": 131859.33,
+   "marketCapSol": 154.6412,
+   "marketCapUsd": 13937.81,
+   "volume24hUsd": 132010.2,
    "url": "https://higher.fun/coin/ALBA7iVjFkQzxPQQCovkK7zQiaXUPmixt2dZxNstXiPp",
    "isNsm": false
   },
@@ -374,9 +374,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:18:43.000Z",
    "trustGrade": "B",
-   "marketCapSol": 98.1272,
-   "marketCapUsd": 8847.64,
-   "volume24hUsd": 28219.32,
+   "marketCapSol": 107.4269,
+   "marketCapUsd": 9682.38,
+   "volume24hUsd": 27993.69,
    "url": "https://higher.fun/coin/6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
    "isNsm": false
   },
@@ -389,8 +389,8 @@
    "createdAt": "2026-11-05T22:41:08.000Z",
    "trustGrade": "B",
    "marketCapSol": 77.0166,
-   "marketCapUsd": 6944.2,
-   "volume24hUsd": 63458.58,
+   "marketCapUsd": 6941.51,
+   "volume24hUsd": 63433.95,
    "url": "https://higher.fun/coin/ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
    "isNsm": false
   },
@@ -402,9 +402,9 @@
    "status": "graduated",
    "createdAt": "2026-11-04T07:26:02.000Z",
    "trustGrade": "B",
-   "marketCapSol": 72.5173,
-   "marketCapUsd": 6538.52,
-   "volume24hUsd": 14544.54,
+   "marketCapSol": 74.4896,
+   "marketCapUsd": 6713.75,
+   "volume24hUsd": 14102.99,
    "url": "https://higher.fun/coin/BU4FASzMf64REXHY526x11RnusvubZWa16GJBYghhigh",
    "isNsm": false
   },
@@ -416,9 +416,9 @@
    "status": "curve",
    "createdAt": "2026-11-03T17:24:23.000Z",
    "trustGrade": "B",
-   "marketCapSol": 70.1935,
-   "marketCapUsd": 6329,
-   "volume24hUsd": 9532.07,
+   "marketCapSol": 68.0358,
+   "marketCapUsd": 6132.07,
+   "volume24hUsd": 9322.71,
    "url": "https://higher.fun/coin/2pdaLHt8451o3abCE8SCFgzJxn6LyT9W6gQodSi9fHnF",
    "isNsm": false
   },
@@ -431,8 +431,8 @@
    "createdAt": "2026-11-04T21:25:03.000Z",
    "trustGrade": "B",
    "marketCapSol": 62.6346,
-   "marketCapUsd": 5647.45,
-   "volume24hUsd": 45.96,
+   "marketCapUsd": 5645.26,
+   "volume24hUsd": 45.94,
    "url": "https://higher.fun/coin/9fAkW6ZknM7NX5FHAc3VKFRB89UnGRYJvkviHXE5zQvc",
    "isNsm": false
   },
@@ -445,8 +445,8 @@
    "createdAt": "2026-11-05T10:50:47.000Z",
    "trustGrade": "C",
    "marketCapSol": 51.9746,
-   "marketCapUsd": 4686.29,
-   "volume24hUsd": 2327.78,
+   "marketCapUsd": 4684.47,
+   "volume24hUsd": 2283.85,
    "url": "https://higher.fun/coin/EE3p42u2rACc3PEDcgVdqfg8JRxSYdvbn53rFoc3i1ix",
    "isNsm": false
   },
@@ -459,8 +459,8 @@
    "createdAt": "2026-11-03T17:26:53.000Z",
    "trustGrade": "C",
    "marketCapSol": 37.2403,
-   "marketCapUsd": 3357.77,
-   "volume24hUsd": 540.05,
+   "marketCapUsd": 3356.47,
+   "volume24hUsd": 539.84,
    "url": "https://higher.fun/coin/Gr3wN678giG2hiJnW9b4z2adzJQbyGZMD1p4rNfvoYkm",
    "isNsm": false
   },
@@ -473,8 +473,8 @@
    "createdAt": "2026-11-03T17:25:17.000Z",
    "trustGrade": "C",
    "marketCapSol": 34.8085,
-   "marketCapUsd": 3138.51,
-   "volume24hUsd": 171.71,
+   "marketCapUsd": 3137.29,
+   "volume24hUsd": 171.64,
    "url": "https://higher.fun/coin/BTyRbNsTc9MMdPfpFM6bdtiJL3EY3M1iATceKcqmuxc1",
    "isNsm": false
   },
@@ -487,8 +487,8 @@
    "createdAt": "2026-11-04T21:31:57.000Z",
    "trustGrade": "B",
    "marketCapSol": 33.7594,
-   "marketCapUsd": 3043.92,
-   "volume24hUsd": 177.36,
+   "marketCapUsd": 3042.73,
+   "volume24hUsd": 177.29,
    "url": "https://higher.fun/coin/J1GkBUb4NSgAZZ8uHhQgTesdx9cqZpkL3x4q7mDL8iiw",
    "isNsm": false
   },
@@ -501,8 +501,8 @@
    "createdAt": "2026-11-03T17:25:28.000Z",
    "trustGrade": "B",
    "marketCapSol": 33.3709,
-   "marketCapUsd": 3008.88,
-   "volume24hUsd": 11198.43,
+   "marketCapUsd": 3007.72,
+   "volume24hUsd": 11088.19,
    "url": "https://higher.fun/coin/7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
    "isNsm": false
   }
