@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T01:40:02.662Z",
+ "updatedAt": "2026-11-07T01:45:01.848Z",
  "solUsd": 90.335,
  "coins": [
   {
@@ -346,9 +346,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:08:56.000Z",
    "trustGrade": "A",
-   "marketCapSol": 9467.6632,
-   "marketCapUsd": 855261.36,
-   "volume24hUsd": 867546.7,
+   "marketCapSol": 9353.7137,
+   "marketCapUsd": 844967.73,
+   "volume24hUsd": 867410.52,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
@@ -360,10 +360,24 @@
    "status": "graduated",
    "createdAt": "2026-11-06T02:27:57.000Z",
    "trustGrade": "B",
-   "marketCapSol": 140.46,
-   "marketCapUsd": 12688.45,
-   "volume24hUsd": 148781.59,
+   "marketCapSol": 139.7711,
+   "marketCapUsd": 12626.22,
+   "volume24hUsd": 148792.83,
    "url": "https://higher.fun/coin/ALBA7iVjFkQzxPQQCovkK7zQiaXUPmixt2dZxNstXiPp",
+   "isNsm": false
+  },
+  {
+   "mint": "6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
+   "name": "Higher Cat",
+   "ticker": "HCAT",
+   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreihb6lvj26ccm5uqshgc62ftkqwocw7dk4m4uhcq3kzf53joue3j3e",
+   "status": "graduated",
+   "createdAt": "2026-11-03T17:18:43.000Z",
+   "trustGrade": "B",
+   "marketCapSol": 78.0306,
+   "marketCapUsd": 7048.89,
+   "volume24hUsd": 22175.39,
+   "url": "https://higher.fun/coin/6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
    "isNsm": false
   },
   {
@@ -381,20 +395,6 @@
    "isNsm": false
   },
   {
-   "mint": "6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
-   "name": "Higher Cat",
-   "ticker": "HCAT",
-   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreihb6lvj26ccm5uqshgc62ftkqwocw7dk4m4uhcq3kzf53joue3j3e",
-   "status": "graduated",
-   "createdAt": "2026-11-03T17:18:43.000Z",
-   "trustGrade": "B",
-   "marketCapSol": 72.831,
-   "marketCapUsd": 6579.19,
-   "volume24hUsd": 22103,
-   "url": "https://higher.fun/coin/6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
-   "isNsm": false
-  },
-  {
    "mint": "ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
    "name": "Malysh&Slavik",
    "ticker": "Cats",
@@ -402,9 +402,9 @@
    "status": "curve",
    "createdAt": "2026-11-05T22:41:08.000Z",
    "trustGrade": "B",
-   "marketCapSol": 72.2595,
-   "marketCapUsd": 6527.56,
-   "volume24hUsd": 18248.71,
+   "marketCapSol": 72.2264,
+   "marketCapUsd": 6524.57,
+   "volume24hUsd": 16456.3,
    "url": "https://higher.fun/coin/ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
    "isNsm": false
   },
@@ -430,9 +430,9 @@
    "status": "curve",
    "createdAt": "2026-11-03T17:24:23.000Z",
    "trustGrade": "B",
-   "marketCapSol": 55.6817,
-   "marketCapUsd": 5030.01,
-   "volume24hUsd": 8615.76,
+   "marketCapSol": 55.6822,
+   "marketCapUsd": 5030.05,
+   "volume24hUsd": 8615.78,
    "url": "https://higher.fun/coin/2pdaLHt8451o3abCE8SCFgzJxn6LyT9W6gQodSi9fHnF",
    "isNsm": false
   },
