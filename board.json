@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T12:15:01.862Z",
+ "updatedAt": "2026-11-07T12:20:02.061Z",
  "solUsd": 89.84,
  "coins": [
   {
@@ -346,9 +346,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:08:56.000Z",
    "trustGrade": "A",
-   "marketCapSol": 12916.9481,
-   "marketCapUsd": 1160458.61,
-   "volume24hUsd": 687661.73,
+   "marketCapSol": 12695.9447,
+   "marketCapUsd": 1140603.67,
+   "volume24hUsd": 678755.16,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
@@ -360,9 +360,9 @@
    "status": "graduated",
    "createdAt": "2026-11-06T02:27:57.000Z",
    "trustGrade": "B",
-   "marketCapSol": 159.5018,
-   "marketCapUsd": 14329.64,
-   "volume24hUsd": 151926.46,
+   "marketCapSol": 159.8868,
+   "marketCapUsd": 14364.23,
+   "volume24hUsd": 151932.34,
    "url": "https://higher.fun/coin/ALBA7iVjFkQzxPQQCovkK7zQiaXUPmixt2dZxNstXiPp",
    "isNsm": false
   },
@@ -374,9 +374,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:18:43.000Z",
    "trustGrade": "B",
-   "marketCapSol": 77.6175,
-   "marketCapUsd": 6973.16,
-   "volume24hUsd": 17310.23,
+   "marketCapSol": 76.0937,
+   "marketCapUsd": 6836.26,
+   "volume24hUsd": 17331.71,
    "url": "https://higher.fun/coin/6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
    "isNsm": false
   },
@@ -390,7 +390,7 @@
    "trustGrade": "B",
    "marketCapSol": 72.3938,
    "marketCapUsd": 6503.86,
-   "volume24hUsd": 7670.96,
+   "volume24hUsd": 7508.45,
    "url": "https://higher.fun/coin/BU4FASzMf64REXHY526x11RnusvubZWa16GJBYghhigh",
    "isNsm": false
   },
@@ -409,20 +409,6 @@
    "isNsm": false
   },
   {
-   "mint": "ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
-   "name": "Malysh&Slavik",
-   "ticker": "Cats",
-   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreiap3ynzk7br6v37tag4y3zbmlp7yt3qibskyss245wuaex7qdvay4",
-   "status": "curve",
-   "createdAt": "2026-11-05T22:41:08.000Z",
-   "trustGrade": "B",
-   "marketCapSol": 58.7152,
-   "marketCapUsd": 5274.97,
-   "volume24hUsd": 13260.61,
-   "url": "https://higher.fun/coin/ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
-   "isNsm": false
-  },
-  {
    "mint": "9fAkW6ZknM7NX5FHAc3VKFRB89UnGRYJvkviHXE5zQvc",
    "name": "DACITY COIN",
    "ticker": "DACITY",
@@ -437,6 +423,20 @@
    "isNsm": false
   },
   {
+   "mint": "ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
+   "name": "Malysh&Slavik",
+   "ticker": "Cats",
+   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreiap3ynzk7br6v37tag4y3zbmlp7yt3qibskyss245wuaex7qdvay4",
+   "status": "curve",
+   "createdAt": "2026-11-05T22:41:08.000Z",
+   "trustGrade": "B",
+   "marketCapSol": 57.7403,
+   "marketCapUsd": 5187.39,
+   "volume24hUsd": 13331.9,
+   "url": "https://higher.fun/coin/ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
+   "isNsm": false
+  },
+  {
    "mint": "EE3p42u2rACc3PEDcgVdqfg8JRxSYdvbn53rFoc3i1ix",
    "name": "Stoned Inu",
    "ticker": "SI",
@@ -444,9 +444,9 @@
    "status": "curve",
    "createdAt": "2026-11-05T10:50:47.000Z",
    "trustGrade": "C",
-   "marketCapSol": 49.5599,
-   "marketCapUsd": 4452.46,
-   "volume24hUsd": 384.51,
+   "marketCapSol": 46.7943,
+   "marketCapUsd": 4204,
+   "volume24hUsd": 485.05,
    "url": "https://higher.fun/coin/EE3p42u2rACc3PEDcgVdqfg8JRxSYdvbn53rFoc3i1ix",
    "isNsm": false
   },
