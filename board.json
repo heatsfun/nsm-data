@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T00:05:02.111Z",
+ "updatedAt": "2026-11-07T00:10:02.336Z",
  "solUsd": 90.005,
  "coins": [
   {
@@ -278,7 +278,7 @@
    "trustGrade": "A",
    "marketCapSol": 22.0095,
    "marketCapUsd": 1980.96,
-   "volume24hUsd": 1507.91,
+   "volume24hUsd": 1319.52,
    "url": "https://higher.fun/coin/9cnrzB1jC5QqR7bJRwAXfPBHypvS2NbwX4umy5wSr4Uk",
    "isNsm": false
   },
@@ -346,9 +346,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:08:56.000Z",
    "trustGrade": "A",
-   "marketCapSol": 11709.8852,
-   "marketCapUsd": 1053948.22,
-   "volume24hUsd": 865688.73,
+   "marketCapSol": 11619.7978,
+   "marketCapUsd": 1045839.9,
+   "volume24hUsd": 863374.56,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
@@ -360,9 +360,9 @@
    "status": "graduated",
    "createdAt": "2026-11-06T02:27:57.000Z",
    "trustGrade": "B",
-   "marketCapSol": 166.6218,
-   "marketCapUsd": 14996.8,
-   "volume24hUsd": 147588.39,
+   "marketCapSol": 166.2961,
+   "marketCapUsd": 14967.48,
+   "volume24hUsd": 147612.28,
    "url": "https://higher.fun/coin/ALBA7iVjFkQzxPQQCovkK7zQiaXUPmixt2dZxNstXiPp",
    "isNsm": false
   },
@@ -376,7 +376,7 @@
    "trustGrade": "B",
    "marketCapSol": 73.8342,
    "marketCapUsd": 6645.45,
-   "volume24hUsd": 10696.07,
+   "volume24hUsd": 10380.89,
    "url": "https://higher.fun/coin/BU4FASzMf64REXHY526x11RnusvubZWa16GJBYghhigh",
    "isNsm": false
   },
@@ -390,7 +390,7 @@
    "trustGrade": "B",
    "marketCapSol": 72.7741,
    "marketCapUsd": 6550.03,
-   "volume24hUsd": 21884.85,
+   "volume24hUsd": 21133.12,
    "url": "https://higher.fun/coin/ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
    "isNsm": false
   },
@@ -402,9 +402,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:18:43.000Z",
    "trustGrade": "B",
-   "marketCapSol": 72.1164,
-   "marketCapUsd": 6490.84,
-   "volume24hUsd": 22106.76,
+   "marketCapSol": 71.8472,
+   "marketCapUsd": 6466.61,
+   "volume24hUsd": 22003.91,
    "url": "https://higher.fun/coin/6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
    "isNsm": false
   },
@@ -432,7 +432,7 @@
    "trustGrade": "B",
    "marketCapSol": 53.9654,
    "marketCapUsd": 4857.15,
-   "volume24hUsd": 8983.04,
+   "volume24hUsd": 8981.1,
    "url": "https://higher.fun/coin/2pdaLHt8451o3abCE8SCFgzJxn6LyT9W6gQodSi9fHnF",
    "isNsm": false
   },
@@ -502,22 +502,8 @@
    "trustGrade": "B",
    "marketCapSol": 33.2776,
    "marketCapUsd": 2995.15,
-   "volume24hUsd": 405.23,
+   "volume24hUsd": 400.06,
    "url": "https://higher.fun/coin/6UCnrRHHHVcnwuJ671v9hpHzfWjy2z4B3NhhruXdhigh",
-   "isNsm": false
-  },
-  {
-   "mint": "7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
-   "name": "Higher Inu",
-   "ticker": "HINU",
-   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreif7chg4zbig6dbji6drrzgmm47zpr6ljyj2brh6q5ohbfn6y7zc7q",
-   "status": "graduated",
-   "createdAt": "2026-11-03T17:25:28.000Z",
-   "trustGrade": "B",
-   "marketCapSol": 33.2097,
-   "marketCapUsd": 2989.04,
-   "volume24hUsd": 7647.1,
-   "url": "https://higher.fun/coin/7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
    "isNsm": false
   },
   {
@@ -574,6 +560,20 @@
    "marketCapUsd": 2871.89,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/Dhdab8VWXLq8avN4FH4LtUASFoHQDvBXC1AnU6Vi46ab",
+   "isNsm": false
+  },
+  {
+   "mint": "7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
+   "name": "Higher Inu",
+   "ticker": "HINU",
+   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreif7chg4zbig6dbji6drrzgmm47zpr6ljyj2brh6q5ohbfn6y7zc7q",
+   "status": "graduated",
+   "createdAt": "2026-11-03T17:25:28.000Z",
+   "trustGrade": "B",
+   "marketCapSol": 31.8571,
+   "marketCapUsd": 2867.3,
+   "volume24hUsd": 7590.3,
+   "url": "https://higher.fun/coin/7ciLtChgZYwSSYmRQBQcrA8JnwzNfQ5EGSzKF5XEdNVn",
    "isNsm": false
   },
   {
@@ -950,7 +950,7 @@
    "trustGrade": "B",
    "marketCapSol": 28.5242,
    "marketCapUsd": 2567.32,
-   "volume24hUsd": 2124.77,
+   "volume24hUsd": 2063.21,
    "url": "https://higher.fun/coin/5tjxM9i6SDC1XQkxp6vP17L12jd8bc5GAftbPpSqa6ur",
    "isNsm": false
   },
