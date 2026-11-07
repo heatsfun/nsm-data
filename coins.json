@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T03:25:01.820Z",
+ "updatedAt": "2026-11-07T03:30:02.003Z",
  "solUsd": 90.065,
  "coins": [
   {
@@ -346,9 +346,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:08:56.000Z",
    "trustGrade": "A",
-   "marketCapSol": 10235.1473,
-   "marketCapUsd": 921828.55,
-   "volume24hUsd": 829844.74,
+   "marketCapSol": 10549.9335,
+   "marketCapUsd": 950179.76,
+   "volume24hUsd": 825658.73,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
@@ -360,9 +360,9 @@
    "status": "graduated",
    "createdAt": "2026-11-06T02:27:57.000Z",
    "trustGrade": "B",
-   "marketCapSol": 195.7051,
-   "marketCapUsd": 17626.18,
-   "volume24hUsd": 149781.57,
+   "marketCapSol": 195.8659,
+   "marketCapUsd": 17640.66,
+   "volume24hUsd": 149783.79,
    "url": "https://higher.fun/coin/ALBA7iVjFkQzxPQQCovkK7zQiaXUPmixt2dZxNstXiPp",
    "isNsm": false
   },
@@ -374,9 +374,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:18:43.000Z",
    "trustGrade": "B",
-   "marketCapSol": 95.2263,
-   "marketCapUsd": 8576.56,
-   "volume24hUsd": 21619.17,
+   "marketCapSol": 91.8332,
+   "marketCapUsd": 8270.96,
+   "volume24hUsd": 21662.6,
    "url": "https://higher.fun/coin/6e7HJV6rRUtbfsA7oeRDgLP55n7PjeyrcJ9UGzQZhigh",
    "isNsm": false
   },
@@ -390,7 +390,7 @@
    "trustGrade": "B",
    "marketCapSol": 72.2037,
    "marketCapUsd": 6503.02,
-   "volume24hUsd": 9842.5,
+   "volume24hUsd": 9835.22,
    "url": "https://higher.fun/coin/BU4FASzMf64REXHY526x11RnusvubZWa16GJBYghhigh",
    "isNsm": false
   },
@@ -404,7 +404,7 @@
    "trustGrade": "B",
    "marketCapSol": 61.7525,
    "marketCapUsd": 5561.74,
-   "volume24hUsd": 14787.42,
+   "volume24hUsd": 14757.32,
    "url": "https://higher.fun/coin/ChXR1sPVGbPBNqN2KKaFfCZbX3MXJcU4furFdreF6SrX",
    "isNsm": false
   },
@@ -418,7 +418,7 @@
    "trustGrade": "B",
    "marketCapSol": 58.7698,
    "marketCapUsd": 5293.1,
-   "volume24hUsd": 7873.16,
+   "volume24hUsd": 7873.13,
    "url": "https://higher.fun/coin/2pdaLHt8451o3abCE8SCFgzJxn6LyT9W6gQodSi9fHnF",
    "isNsm": false
   },
