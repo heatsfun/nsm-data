@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T11:15:02.798Z",
+ "updatedAt": "2026-11-23T11:20:03.009Z",
  "solUsd": 72.23,
  "coins": [
   {
@@ -374,9 +374,9 @@
    "status": "graduated",
    "createdAt": "2026-11-03T17:08:56.000Z",
    "trustGrade": "A",
-   "marketCapSol": 2331.3194,
-   "marketCapUsd": 168391.2,
-   "volume24hUsd": 23138.03,
+   "marketCapSol": 3351.8083,
+   "marketCapUsd": 242101.11,
+   "volume24hUsd": 32452.28,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
@@ -633,6 +633,20 @@
    "isNsm": false
   },
   {
+   "mint": "EE3p42u2rACc3PEDcgVdqfg8JRxSYdvbn53rFoc3i1ix",
+   "name": "Stoned Inu",
+   "ticker": "SI",
+   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreihzn6kt2hzlxhf7vccrmi542gdh4zge3lro44znkuumdrlfvth57y",
+   "status": "curve",
+   "createdAt": "2026-11-05T10:50:47.000Z",
+   "trustGrade": "C",
+   "marketCapSol": 29.9201,
+   "marketCapUsd": 2161.13,
+   "volume24hUsd": 143.02,
+   "url": "https://higher.fun/coin/EE3p42u2rACc3PEDcgVdqfg8JRxSYdvbn53rFoc3i1ix",
+   "isNsm": false
+  },
+  {
    "mint": "Dhdab8VWXLq8avN4FH4LtUASFoHQDvBXC1AnU6Vi46ab",
    "name": "420",
    "ticker": "420",
@@ -854,20 +868,6 @@
    "marketCapUsd": 2039.06,
    "volume24hUsd": 0,
    "url": "https://higher.fun/coin/H3YtmCFuybhNrtibmHRSfGWxNEjmEEdfzygQMKEgFoSE",
-   "isNsm": false
-  },
-  {
-   "mint": "EE3p42u2rACc3PEDcgVdqfg8JRxSYdvbn53rFoc3i1ix",
-   "name": "Stoned Inu",
-   "ticker": "SI",
-   "imageUri": "https://tan-hilarious-tarantula-475.mypinata.cloud/ipfs/bafkreihzn6kt2hzlxhf7vccrmi542gdh4zge3lro44znkuumdrlfvth57y",
-   "status": "curve",
-   "createdAt": "2026-11-05T10:50:47.000Z",
-   "trustGrade": "C",
-   "marketCapSol": 28.1796,
-   "marketCapUsd": 2035.41,
-   "volume24hUsd": 0,
-   "url": "https://higher.fun/coin/EE3p42u2rACc3PEDcgVdqfg8JRxSYdvbn53rFoc3i1ix",
    "isNsm": false
   },
   {
