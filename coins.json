@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T01:15:03.290Z",
+ "updatedAt": "2026-11-24T01:20:02.666Z",
  "solUsd": 72.315,
  "coins": [
   {
@@ -376,7 +376,7 @@
    "trustGrade": "A",
    "marketCapSol": 2906.7253,
    "marketCapUsd": 210199.84,
-   "volume24hUsd": 27010.45,
+   "volume24hUsd": 26906.93,
    "url": "https://higher.fun/coin/7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
    "isNsm": false
   },
